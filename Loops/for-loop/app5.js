@@ -5,12 +5,12 @@
 // var min = Math.min.apply(Math, arr)
 // console.log(min)
 
-let array = [2, , 1, 6, 45, 89];
-let smallest = array[0];
+let arr = [2, , 1, 6, 45, 89];
+let smallest = arr[0];
 
-for (let i = 0; i < array.length; i++) {
-  if (smallest > array[i]) {
-    smallest = array[i];
+for (let i = 0; i < arr.length; i++) {
+  if (smallest > arr[i]) {
+    smallest = arr[i];
   }
 }
 console.log(smallest);
