@@ -13,12 +13,12 @@
 // console.log(max)
 
 
-let array = [2, 0, 1, 6, 45, 89];
+let arr = [2, 0, 1, 6, 45, 89];
 let largest = 0;
 
-for (let i = 0; i < array.length; i++) {
-  if (largest < array[i]) {
-    largest = array[i];
+for (let i = 0; i < arr.length; i++) {
+  if (largest < arr[i]) {
+    largest = arr[i];
   }
 }
 console.log(largest);
