@@ -7,11 +7,11 @@
 
 
 
-var numberArray = [1, 8, 7, 3, 2, 9, 10, 12]
+let numberArray = [1, 8, 7, 3, 2, 9, 10, 12]
 
 numberArray = numberArray.filter((number) => {  //The filter() method creates an array filled with all array elements that pass a test (provided as a function).
 
-  for (var i = 2; i <= Math.sqrt(number); i++) {
+  for (let i = 2; i <= Math.sqrt(number); i++) {
 
     if (number % i === 0) return false;
 
