@@ -16,10 +16,12 @@
 //     alert(animalString);
 // }
 
-let petAnimals = ["cat", "rabbit", "pigeon", "parrot", "goldfish"];
+let animals = ["cat", "rabbit", "pigeon", "parrot", "goldfish"];
+
 for (let i = 0; i < petAnimals.length; i++) {
-    if (petAnimals[i] == "rabbit") {
-        console.log("This is " +petAnimals[i]);
+    if (petAnimals[i] == "rabbit") 
+    {
+        console.log("This is " +animals[i]);
     }
     else {
         console.log("This is not a rabbit");
