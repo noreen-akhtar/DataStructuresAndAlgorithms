@@ -4,7 +4,11 @@
 //   ‘something else’ if the name doesn’t equal any 
 //   of the names in the list.
 
-var animals = ['cat', 'rabbit', 'pigeon','parrot', 'goldfish'];
+var animals = ['cat',
+                'rabbit', 
+                'pigeon',
+                'parrot', 
+                'goldfish'];
 // let pet = 'horse'
 for(var i=0; i<animals.length; i++) {
     // if(animals.includes(pet))
